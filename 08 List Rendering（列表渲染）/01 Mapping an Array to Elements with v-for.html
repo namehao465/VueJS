@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>用 v-for 把一个数组对应为一组元素</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <ul>
+        <li v-for="(item,index) in items">{{parentMessage}}-{{index}}-{{item.message}}</li>
+    </ul>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            parentMessage:"parentMsg",
+            items:[
+                {id:0,message:"msg01"},
+                {id:1,message:"msg02"},
+                {id:2,message:"msg03"},
+                {id:3,message:"msg04"},
+            ]
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>基本用法</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>01 文本</h1>
+    <input type="text" v-model="message" placeholder="edit me">
+    <p>message is {{message}}</p>
+
+    <h1>02 多行文本</h1>
+    <span>Multiline message is:</span>
+    <p style="white-space: pre-line;">{{ message }}</p>
+    <br>
+    <textarea v-model="message" placeholder="add multiple lines"></textarea>
+
+    <h1>03 复选框</h1>
+    <h2>03-1 单个复选框</h2>
+    <input type="checkbox" v-model="checked" id="checkbox">
+    <label>{{checked}}</label>
+
+    <h2>03-2 多个复选框</h2>
+    <input type="checkbox" v-model="checkedNames" id="Jack" value="Jack">
+    <label for="Jack">Jack</label>
+    <input type="checkbox" v-model="checkedNames" id="John" value="John">
+    <label for="John">John</label>
+    <input type="checkbox" v-model="checkedNames" id="Mike" value="Mike">
+    <label for="Mike">Mike</label>
+    <p>{{checkedNames}}</p>
+
+    <h1>04 单选按钮</h1>
+    <input type="radio" v-model="picked" id="one" value="one">
+    <label for="one">one</label>
+    <br/>
+    <input type="radio" v-model="picked" id="two" value="two">
+    <label for="two">two</label>
+    <br/>
+    <p>{{picked}}</p>
+
+    <h1>05 选择框</h1>
+    <h2>05-1 单个选择框</h2>
+    <select v-model="selected">
+        <option disabled value="">请选择</option>
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+    </select>
+    <p>{{selected}}</p>
+
+    <h2>05-2 多个选择框</h2>
+    <select multiple v-model="selected1">
+        <option disabled value="">请选择</option>
+        <option value="one">one</option>
+        <option value="two">two</option>
+        <option value="three">three</option>
+    </select>
+    <p>{{selected1}}</p>
+
+    <h2>05-3 v-for选择框</h2>
+    <select v-model="selected2">
+        <option :value="item.text" v-for="item in options">{{item.text}}</option>
+    </select>
+    <p>{{selected2}}</p>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            message:"",
+            checked:false,
+            checkedNames:[],
+            picked:'',
+            selected:'',
+            selected1: [],
+            options:[
+                {text:"A"},
+                {text:"B"},
+                {text:"C"},
+                {text:"D"},
+            ],
+            selected2:'A',
+        }
+    })
+</script>
+</body>
+</html>

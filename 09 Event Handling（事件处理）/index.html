@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>事件处理</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>01 监听事件</h1>
+    <button @click="counter+=1">add 1</button>
+    <span>{{counter}}</span>
+    <h1>02 事件处理方法</h1>
+    <button @click="greet">greet</button>
+    <h1>03 内联处理器中的方法</h1>
+    <button @click="say('hi')">say hi</button>
+    <button @click="say('vue')">say vue</button>
+    <h1>04 事件修饰符</h1>
+    <h1>05 按键修饰符</h1>
+    <h1>06 系统修饰键</h1>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            counter:0
+        },
+        methods:{
+            greet:function () {
+                alert("greet")
+            },
+            say:function (value) {
+                alert(value)
+            }
+        }
+    })
+</script>
+</body>
+</html>

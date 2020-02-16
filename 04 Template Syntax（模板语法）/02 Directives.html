@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>指令</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>01 参数</p>
+    <a v-bind:href="url">百度</a>
+
+    <p>02 动态参数</p>
+    <a v-bind:[attr1]="url" v-on:[attr2]="dosomething">百度</a>
+
+    <p>03 修饰符</p>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            url:"http://www.baidu.com",
+            attr1:"href",
+            attr2:"focus"
+        },
+        methods:{
+            dosomething:function () {
+                console.log(this.url)
+            }
+        }
+    })
+</script>
+</body>
+</html>

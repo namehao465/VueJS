@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>数组更新检测</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>01 变异方法</h1>
+    <span>Vue 将被侦听的数组的变异方法进行了包裹，所以它们也将会触发视图更新。这些被包裹过的方法包括：push()pop()shift()unshift()splice()sort()reverse()</span>
+    <ul>
+        <li v-for="item in items">{{item.msg}}</li>
+    </ul>
+    <input v-model="newValue"><button @click="submit">新增</button>
+
+    <h1>02 替换数组</h1>
+    <span>非变异 (non-mutating method) 方法，例如 filter()、concat() 和 slice() 。它们不会改变原始数组，而总是返回一个新数组。当使用非变异方法时，可以用新数组替换旧数组：</span>
+    <h1>03 注意事项</h1>
+    <span>Vue.set修改数组值</span>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            newValue:"",
+            items:[
+                {msg:"item01"},
+                {msg:"item02"},
+                {msg:"item03"},
+                {msg:"item04"},
+            ]
+        },
+        methods:{
+            submit:function () {
+                this.items.push({msg:this.newValue})
+            }
+        }
+    })
+</script>
+</body>
+</html>

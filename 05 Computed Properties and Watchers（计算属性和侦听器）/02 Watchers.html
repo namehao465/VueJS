@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>侦听器</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>input your full name </p>
+    <input v-model="fullname">
+    <p>your first name is {{firstname}}</p>
+    <p>your last name is {{lastname}}</p>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            firstname:"",
+            lastname:"",
+            fullname:""
+        },
+        watch:{
+            fullname: function (newValue) {
+                var names = newValue.split(' ')
+                this.firstname = names[0]
+                this.lastname = names[names.length-1]
+
+            }
+        }
+    })
+</script>
+</body>
+</html>
