@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>全局注册</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <component-a></component-a>
+    <component-c></component-c>
+    <component-b></component-b>
+</div>
+<script>
+    Vue.component("component-a",{
+        template:"<h1>component-a</h1>"
+    })
+    Vue.component("component-b",{
+        template:"<h1>component-b</h1>"
+    })
+    Vue.component("component-c",{
+        template:"<h1>component-c</h1>"
+    })
+    new Vue({
+        el:"#app"
+    })
+</script>
+</body>
+</html>

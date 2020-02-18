@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>基本示例</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <button-component></button-component>
+</div>
+<script>
+    Vue.component('button-component',{
+        data:function () {
+            return {
+                counter:0
+            }
+        },
+        template: '<button @click="counter+=1">clicked {{counter}} times</button>'
+    })
+
+    new Vue({
+        el:"#app"
+    })
+</script>
+</body>
+</html>

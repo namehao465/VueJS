@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>局部注册</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <component-a></component-a>
+    <component-b></component-b>
+    <component-c></component-c>
+</div>
+<script>
+    var ComponentA = {
+        template:"<h1>ComponentA</h1>"
+    }
+    var ComponentB = {
+        template:"<h1>ComponentB</h1>"
+    }
+    var ComponentC = {
+        template:"<h1>ComponentC</h1>"
+    }
+    new Vue({
+        el:"#app",
+        components:{
+            'component-a':ComponentA,
+            'component-b':ComponentB,
+            'component-c':ComponentC
+        }
+    })
+
+</script>
+</body>
+</html>

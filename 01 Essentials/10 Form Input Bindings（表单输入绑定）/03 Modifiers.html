@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>修饰符</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>01 .lazy</h1>
+    <input v-model.lazy="msg">
+    <p>{{msg}}</p>
+
+    <h1>02 .number</h1>
+    <input v-model.number="number" type="number">
+    <p>{{number}}</p>
+
+    <h1>03 .trim</h1>
+    <input v-model.trim="trim">
+    <p>{{trim}}</p>
+</div>
+<script>
+    var app  = new Vue({
+        el:"#app",
+        data:{
+            msg:"",
+            number:"",
+            trim:""
+        }
+    })
+</script>
+</body>
+</html>

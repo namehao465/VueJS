@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>值绑定</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>01 复选框</h1>
+    <input type="checkbox" v-model="toggle" true-value="yes" false-value="no">
+    <p>{{toggle}}</p>
+
+    <h1>02 单选按钮</h1>
+    <input type="radio" v-model="pick" v-bind:value="a">
+    <p>{{pick}}</p>
+
+    <h1>03 选择框的选项</h1>
+    <select v-model="selected">
+        <!-- 内联对象字面量 -->
+        <option v-bind:value="{ number: 123 }">123</option>
+    </select>
+    <p>selected.number is {{selected.number}}</p>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            toggle:'yes',
+            pick:'',
+            a:'单选框选中',
+            selected:''
+        }
+    })
+</script>
+</body>
+</html>

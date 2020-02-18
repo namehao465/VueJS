@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>计算属性</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>01 基础例子</p>
+    <input v-model="msg">
+    <p>message is {{msg}}</p>
+    <p>reversed message is {{reversedMsg}}</p>
+    <p>——————————————————————————————————————————————————————————————————————————————————————</p>
+    <p>02 计算属性缓存 vs 方法</p>
+    <span>不同的是计算属性是基于它们的响应式依赖进行缓存的。只在相关响应式依赖发生改变时它们才会重新求值。这就意味着只要 message 还没有发生改变，多次访问 reversedMessage 计算属性会立即返回之前的计算结果，而不必再次执行函数。</span>
+    <p>now is {{now}}</p>
+    <p>——————————————————————————————————————————————————————————————————————————————————————</p>
+    <p>03 计算属性 vs 侦听属性</p>
+    <span>input your first name</span><input v-model="firstName"><br/>
+    <span>input your last name</span><input v-model="lastName"><br/>
+    <p>your full name is {{fullName}}</p>
+    <p>——————————————————————————————————————————————————————————————————————————————————————</p>
+    <p>04 计算属性的 setter</p>
+    <span>input your full name</span><input v-model="fullName"><br/>
+    <p>your first name is {{firstName}}</p>
+    <p>your last name is {{lastName}}</p>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            msg:"hello Vue!",
+            firstName:"hao",
+            lastName:"chen"
+        },
+        computed:{
+            reversedMsg:function () {
+                return this.msg.split('').reverse().join('');
+            },
+            now:function () {
+                return Date.now()
+            },
+            fullName:{
+                get:function () {
+                    return this.firstName+' '+this.lastName
+                },
+                set:function (newvalue) {
+                    var names = newvalue.split(' ')
+                    this.firstName = names[0]
+                    this.lastName = names[names.length-1]
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

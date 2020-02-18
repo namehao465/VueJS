@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>插值</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <p>01 文本text {{msg}}</p>
+    <p>02 原始HTML Raw HTML</p>
+    <p v-html="rawhtml"></p>
+
+    <p>03 Attribute</p>
+    <button v-bind:disable="isButtonDisable">Button</button>
+
+    <p>04 使用 JavaScript 表达式</p>
+    <span v-bind:id="'id'+id">JavaScript</span>
+</div>
+<script>
+    var app = new Vue({
+        el:"#app",
+        data:{
+            msg:"Hello Vue!",
+            rawhtml:"<span style='color:red'>Raw HTML</span>",
+            isButtonDisable:true,
+            id:1
+        }
+    })
+</script>
+</body>
+</html>
