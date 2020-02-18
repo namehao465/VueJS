@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>单个根元素</title>
+    <script src="../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <blog-post
+        v-for="post in posts"
+        :key="post.id"
+        :post="post"></blog-post>
+</div>
+<script>
+    Vue.component("blog-post",{
+        props:["post"],
+        template:`<div class="blog-post">
+                    <h3>{{post.title}}</h3>
+                    <div v-html="post.content"></div>
+                    </div>
+                    `
+    })
+    new Vue({
+        el:"#app",
+        data:{
+            posts:[
+                {id:0,title:"vue00",content:`<p>vue00.content</p>`},
+                {id:1,title:"vue01",content:`<p>vue01.content</p>`},
+                {id:2,title:"vue02",content:`<p>vue02.content</p>`},
+                {id:3,title:"vue03",content:`<p>vue03.content</p>`},
+            ]
+        }
+    })
+</script>
+</body>
+</html>
