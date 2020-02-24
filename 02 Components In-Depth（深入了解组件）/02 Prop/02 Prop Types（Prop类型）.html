@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>Prop类型</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+     <blog-post title="Vue"
+                likes=5
+                isPublished=true></blog-post>
+</div>
+<script>
+    Vue.component("blog-post",{
+        props:{
+            title:String,
+            likes:Number,
+            isPublished:Boolean
+        },
+        template:`<ul>
+                    <li>{{title}}</li>
+                    <li>{{likes}}</li>
+                    <li>{{isPublished}}</li>
+                    </ul>`
+    })
+    new Vue({
+        el:"#app"
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>后备内容</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <submit-button>save</submit-button>
+</div>
+<script>
+    Vue.component("submit-button",{
+        template:`<button>
+                    <slot>submit</slot>
+                    </button>`
+    })
+    new Vue({
+        el:"#app"
+    })
+</script>
+</body>
+</html>

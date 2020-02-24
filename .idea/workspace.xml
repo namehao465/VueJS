@@ -2,34 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b335186-6a67-4134-921c-6884998cdaa7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/09 DOM Template Parsing Caveats.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/01 Component Names.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/02 Global Registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/03 Local Registration.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/04 Module Systems.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/01 Prop Casing（Prop的大小写）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/02 Prop Types（Prop类型）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/03 Passing Static or Dynamic Props（传递静态或动态 Prop）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/04 One-Way Data Flow（单向数据流）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/05 Prop Validation（Prop验证）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/06 Non-Prop Attributes（非 Prop 的 Attribute）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/01 Event Names（事件名）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/02 Customizing Component v-model（自定义组件的 v-model）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/03 Binding Native Events to Components（将原生事件绑定到组件）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/04 .sync Modifier（.sync 修饰符）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/01 Slot Content（插槽内容）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/02 Compilation Scope（编译作用域）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/03 Fallback Content（后备内容）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/04 Named Slots（具名插槽）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/05 Scoped Slots（作用域插槽）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/06 Dynamic Slot Names（动态参数）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/07 Named Slots Shorthand（具名插槽的缩写）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/08 Other Examples（其它示例）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/05 Dynamic &amp; Async Components（动态组件 &amp; 异步组件）/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/01 Overview（概述）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements&amp;Components（单元素&amp;组件的过渡）.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05 Tooling（工具）/01 Single File Components（单文件组件）/01 Introduction（介绍）.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04 Template Syntax（模板语法）/01 Interpolations.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/04 Template Syntax（模板语法）/01 Interpolations.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/04 Template Syntax（模板语法）/02 Directives.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/04 Template Syntax（模板语法）/02 Directives.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06 Class and Style Bindings（Class 与 Style 绑定）--/01 Binding HTML Classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/06 Class and Style Bindings（Class 与 Style 绑定）--/01 Binding HTML Classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07 Conditional Rendering（条件渲染）/01 v-if.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/07 Conditional Rendering（条件渲染）/01 v-if.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 List Rendering（列表渲染）/02 v-for with an Object.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/02 v-for with an Object.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 List Rendering（列表渲染）/03 维护状态.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/03 维护状态.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 List Rendering（列表渲染）/04 Array Change Detection.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/04 Array Change Detection.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09 Event Handling（事件处理）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/09 Event Handling（事件处理）/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10 Form Input Bindings（表单输入绑定）/01 Basic Usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/01 Basic Usage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10 Form Input Bindings（表单输入绑定）/02 Value Bindings.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/02 Value Bindings.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/10 Form Input Bindings（表单输入绑定）/03 Modifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/03 Modifiers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/01 Base Example.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/01 Base Example.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/02 Reusing Components.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/02 Reusing Components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/03 Organizing Components.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/03 Organizing Components.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/04 Passing Data to Child Components with Props.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/04 Passing Data to Child Components with Props.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/05 A Single Root Element.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/05 A Single Root Element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/06 Listening to Child Components Events.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/06 Listening to Child Components Events.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/07 Content Distribution with Slots.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/07 Content Distribution with Slots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11 Components Basics（组件基础）/08 Dynamic Components.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/08 Dynamic Components.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/04 Template Syntax（模板语法）/01 Interpolations.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/04 Template Syntax（模板语法）/01 Interpolations（插值）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/04 Template Syntax（模板语法）/02 Directives.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/04 Template Syntax（模板语法）/02 Directives（指令）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties（计算属性）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers（侦听器）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/06 Class and Style Bindings（Class 与 Style 绑定）--/01 Binding HTML Classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/06 Class and Style Bindings（Class 与 Style 绑定）--/01 Binding HTML Classes（绑定 HTML Class）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/07 Conditional Rendering（条件渲染）/01 v-if.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/07 Conditional Rendering（条件渲染）/01 v-if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for（用 v-for 把一个数组对应为一组元素）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/02 v-for with an Object.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/02 v-for with an Object（在 v-for 里使用对象）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/03 维护状态.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/03 Maintaining State（维护状态）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/04 Array Change Detection.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/04 Array Change Detection（数组更新检测）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/09 Event Handling（事件处理）/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/09 Event Handling（事件处理）/事件处理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/01 Basic Usage.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/10 Form Input Bindings（表单输入绑定）/01 Basic Usage（基本用法）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/02 Value Bindings.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/10 Form Input Bindings（表单输入绑定）/02 Value Bindings（值绑定）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/03 Modifiers.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/10 Form Input Bindings（表单输入绑定）/03 Modifiers（修饰符）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/01 Base Example.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/01 Base Example（基本示例）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/02 Reusing Components.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/02 Reusing Components（组件的复用）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/03 Organizing Components.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/03 Organizing Components（组件的组织）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/04 Passing Data to Child Components with Props.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/04 Passing Data to Child Components with Props（通过 Prop 向子组件传递数据）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/05 A Single Root Element.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/05 A Single Root Element（单个根元素）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/06 Listening to Child Components Events.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/06 Listening to Child Components Events（监听子组件事件）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/07 Content Distribution with Slots.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/07 Content Distribution with Slots（通过插槽分发内容）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/08 Dynamic Components.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/08 Dynamic Components（动态组件）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/09 DOM Template Parsing Caveats.html" beforeDir="false" afterPath="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/09 DOM Template Parsing Caveats（解析 DOM 模板时的注意事项）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/01 Component Names.html" beforeDir="false" afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/01 Component Names（组件名）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/02 Global Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/02 Global Registration（组件名）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/03 Local Registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/03 Local Registration（局部注册）.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/04 Module Systems.html" beforeDir="false" afterPath="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/04 Module Systems（模块系统）.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,7 +63,44 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/05 Tooling（工具）/01 Single File Components（单文件组件）/01 Introduction（介绍）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements&amp;Components（单元素&amp;组件的过渡）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/04 Module Systems（模块系统）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/03 Local Registration（局部注册）.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,19 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/Template Syntax.html" />
-        <option value="$PROJECT_DIR$/04 Template Syntax（模板语法）/Interpolations.html" />
-        <option value="$PROJECT_DIR$/04 Template Syntax（模板语法）/Directives.html" />
-        <option value="$PROJECT_DIR$/04 Template Syntax（模板语法）/01 Interpolations.html" />
-        <option value="$PROJECT_DIR$/04 Template Syntax（模板语法）/02 Directives.html" />
-        <option value="$PROJECT_DIR$/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties.html" />
-        <option value="$PROJECT_DIR$/05 Computed Properties and Watchers（计算属性和侦听器）/Watchers.html" />
-        <option value="$PROJECT_DIR$/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers.html" />
-        <option value="$PROJECT_DIR$/06 Class and Style Bindings（Class 与 Style 绑定）/01 Binding HTML Classes.html" />
-        <option value="$PROJECT_DIR$/07 Conditional Rendering（条件渲染）/01 v-if.html" />
-        <option value="$PROJECT_DIR$/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for.html" />
-        <option value="$PROJECT_DIR$/08 List Rendering（列表渲染）/02 v-for with an Object.html" />
         <option value="$PROJECT_DIR$/08 List Rendering（列表渲染）/03 维护状态.html" />
         <option value="$PROJECT_DIR$/08 List Rendering（列表渲染）/04 Array Change Detection.html" />
         <option value="$PROJECT_DIR$/09 Event Handling（事件处理）/index.html" />
@@ -90,6 +136,36 @@
         <option value="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/03 Local Registration.html" />
         <option value="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/04 Module Systems.html" />
         <option value="$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/01 Component Names.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/02 Prop/01 Prop Casing.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/02 Prop/02 Prop Types.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/02 Prop/03 Passing Static or Dynamic Props.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/02 Prop/04 One-Way Data Flow.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/02 Prop/05 Prop Validation.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/03 Custom Events（自定义事件）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/02 Prop/06 Non-Prop Attributes.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/03 Custom Events（自定义事件）/01 Event Names.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/03 Custom Events（自定义事件）/02 Customizing Component v-model.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/03 Custom Events（自定义事件）/03 Binding Native Events to Components.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth/03 Custom Events（自定义事件）/04 .sync Modifier.html" />
+        <option value="$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/05 A Single Root Element.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/01 Component Names.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/02 Global Registration.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/01 Slot Content（插槽内容）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/02 Compilation Scope（编译作用域）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/03 Fallback Content（后备内容）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/04 Named Slots（具名插槽）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/05 Scoped Slots（作用域插槽）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/06 Dynamic Slot Names（动态参数）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/07 Named Slots Shorthand（具名插槽的缩写）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/08 其它示例.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/08 Other Examples（其它示例）.html" />
+        <option value="$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/05 Dynamic &amp; Async Components（动态组件 &amp; 异步组件）/index.html" />
+        <option value="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/01 Overview（概述）.html" />
+        <option value="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements/Components（单元素/组件的过渡）.html" />
+        <option value="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements/Components.html" />
+        <option value="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements&amp;Components.html" />
+        <option value="$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements&amp;Components（单元素&amp;组件的过渡）.html" />
+        <option value="$PROJECT_DIR$/05 Tooling（工具）/01 Single File Components（单文件组件）/01 Introduction（介绍）.html" />
       </list>
     </option>
   </component>
@@ -107,7 +183,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -115,10 +190,16 @@
               <item name="VueJS" type="b2602c69:ProjectViewProjectNode" />
               <item name="VueJS" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="VueJS" type="b2602c69:ProjectViewProjectNode" />
+              <item name="VueJS" type="462c0819:PsiDirectoryNode" />
+              <item name="03 Transitions &amp; Animation（过渡&amp;动画）" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -133,12 +214,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\VueJS" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\VueJS\02 Components In-Depth\03 Custom Events（自定义事件）" />
       <recent name="D:\code\VueJS\01 Essentials" />
       <recent name="D:\code\VueJS\Template Syntax（模板语法）" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\VueJS" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -176,16 +258,22 @@
       <workItem from="1582010192879" duration="4462000" />
       <workItem from="1582015073660" duration="4078000" />
       <workItem from="1582020085970" duration="1520000" />
+      <workItem from="1582113861629" duration="5538000" />
+      <workItem from="1582160608929" duration="11529000" />
+      <workItem from="1582200753388" duration="599000" />
+      <workItem from="1582270634071" duration="10733000" />
+      <workItem from="1582356308989" duration="433000" />
+      <workItem from="1582356762466" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54420000" />
+    <option name="totallyTimeSpent" value="83284000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1096" height="1896" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2911153" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21759747" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -201,7 +289,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="GraphQL" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.16647466" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32254463" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -221,49 +309,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vue.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="46" column="7" selection-start-line="46" selection-start-column="7" selection-end-line="46" selection-end-column="7" />
-          <folding>
-            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#span#0;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/02 v-for with an Object.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/03 维护状态.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/04 Array Change Detection.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="23" lean-forward="true" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/04 Template Syntax（模板语法）/01 Interpolations.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/04 Template Syntax（模板语法）/01 Interpolations（插值）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
@@ -273,177 +319,344 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/07 Conditional Rendering（条件渲染）/01 v-if.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/04 Template Syntax（模板语法）/02 Directives（指令）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties（计算属性）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers（侦听器）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/06 Class and Style Bindings（Class 与 Style 绑定）--/01 Binding HTML Classes（绑定 HTML Class）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/07 Conditional Rendering（条件渲染）/01 v-if.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="744">
           <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/05 Computed Properties and Watchers（计算属性和侦听器）/01 Computed Properties.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for（用 v-for 把一个数组对应为一组元素）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+        <state relative-caret-position="120">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/05 Computed Properties and Watchers（计算属性和侦听器）/02 Watchers.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/02 v-for with an Object（在 v-for 里使用对象）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/06 Class and Style Bindings（Class 与 Style 绑定）--/01 Binding HTML Classes.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/03 Maintaining State（维护状态）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/08 List Rendering（列表渲染）/01 Mapping an Array to Elements with v-for.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/08 List Rendering（列表渲染）/04 Array Change Detection（数组更新检测）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        <state relative-caret-position="88">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/03 Modifiers.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/09 Event Handling（事件处理）/事件处理.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        <state relative-caret-position="112">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="48">
-            <caret line="2" column="11" lean-forward="true" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/09 Event Handling（事件处理）/index.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/10 Form Input Bindings（表单输入绑定）/01 Basic Usage（基本用法）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/01 Basic Usage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#p#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/10 Form Input Bindings（表单输入绑定）/02 Value Bindings.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/10 Form Input Bindings（表单输入绑定）/02 Value Bindings（值绑定）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        <state relative-caret-position="64">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/01 Base Example.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/10 Form Input Bindings（表单输入绑定）/03 Modifiers（修饰符）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/02 Reusing Components.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/01 Base Example（基本示例）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="88">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/04 Passing Data to Child Components with Props.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/02 Reusing Components（组件的复用）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/04 Template Syntax（模板语法）/02 Directives.html">
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/03 Organizing Components（组件的组织）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/04 Passing Data to Child Components with Props（通过 Prop 向子组件传递数据）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/05 A Single Root Element（单个根元素）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/06 Listening to Child Components Events（监听子组件事件）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/07 Content Distribution with Slots（通过插槽分发内容）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/08 Dynamic Components（动态组件）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01 Essentials（基础）/11 Components Basics（组件基础）/09 DOM Template Parsing Caveats（解析 DOM 模板时的注意事项）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/01 Component Names（组件名）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/02 Global Registration（组件名）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/01 Prop Casing（Prop的大小写）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/02 Prop Types（Prop类型）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/03 Passing Static or Dynamic Props（传递静态或动态 Prop）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/04 One-Way Data Flow（单向数据流）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="16" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/05 Prop Validation（Prop验证）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/02 Prop/06 Non-Prop Attributes（非 Prop 的 Attribute）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="29" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/01 Event Names（事件名）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/02 Customizing Component v-model（自定义组件的 v-model）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/03 Binding Native Events to Components（将原生事件绑定到组件）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/03 Custom Events（自定义事件）/04 .sync Modifier（.sync 修饰符）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/01 Slot Content（插槽内容）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/02 Compilation Scope（编译作用域）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/03 Fallback Content（后备内容）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="23" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/04 Named Slots（具名插槽）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/05 Scoped Slots（作用域插槽）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/07 Named Slots Shorthand（具名插槽的缩写）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/03 Organizing Components.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/05 A Single Root Element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/04 Module Systems.html">
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/06 Dynamic Slot Names（动态参数）.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/03 Local Registration.html">
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/04 Slots（插槽）/08 Other Examples（其它示例）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        <state relative-caret-position="136">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/02 Global Registration.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/02 Components In-Depth/01 Component Registration（组建注册）/01 Component Names.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/09 DOM Template Parsing Caveats.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/08 Dynamic Components.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/07 Content Distribution with Slots.html">
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/05 Dynamic &amp; Async Components（动态组件 &amp; 异步组件）/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01 Essentials/11 Components Basics（组件基础）/06 Listening to Child Components Events.html">
+    <entry file="file://$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements/Components（单元素/组件的过渡）.html" />
+    <entry file="file://$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements/Components.html" />
+    <entry file="file://$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/01 Overview（概述）.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
+        <state relative-caret-position="120">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/05 Tooling（工具）/01 Single File Components（单文件组件）/01 Introduction（介绍）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/04 Module Systems（模块系统）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02 Components In-Depth（深入了解组件）/01 Component Registration（组建注册）/03 Local Registration（局部注册）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="15" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03 Transitions &amp; Animation（过渡&amp;动画）/02 Transitioning Single Elements&amp;Components（单元素&amp;组件的过渡）.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
         </state>
       </provider>
     </entry>

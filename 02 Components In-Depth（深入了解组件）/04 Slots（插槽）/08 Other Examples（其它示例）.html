@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>其它示例</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <todo-list v-bind:todos="todos">
+        <template v-slot:todo="{ todo }">
+            <span v-if="todo.isComplete">✓</span>
+            {{ todo.text }}
+        </template>
+    </todo-list>
+</div>
+<script>
+    Vue.component("todo-list",{
+        props:["todos"],
+        template:`<ul>
+                        <li
+                        v-for="todo in todos"
+                        v-bind:key="todo.id"
+                        >
+                        <slot name="todo" v-bind:todo="todo">
+                        {{todo.text}}
+                        </slot>
+                        </li>
+                        </ul>`
+    })
+    new Vue({
+        el:"#app",
+        data:{
+            todos:[
+                {id:1,text:"todo01",isComplete:false},
+                {id:2,text:"todo02",isComplete:true},
+                {id:3,text:"todo03",isComplete:false},
+                {id:4,text:"todo04",isComplete:false},
+                {id:5,text:"todo05",isComplete:false},
+            ]
+        }
+
+    })
+</script>
+</body>
+</html>

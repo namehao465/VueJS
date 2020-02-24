@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>非 Prop 的 Attribute</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>01 替换/合并已有的 Attribute</h1>
+    <p>对于绝大多数 attribute 来说，从外部提供给组件的值会替换掉组件内部设置好的值。所以如果传入 type="text" 就会替换掉 type="date" 并把它破坏！庆幸的是，class 和 style attribute
+        会稍微智能一些，即两边的值会被合并起来，从而得到最终的值：form-control date-picker-theme-dark。</p>
+    <h1>02 禁用 Attribute 继承</h1>
+    <p>如果你不希望组件的根元素继承 attribute，你可以在组件的选项中设置 inheritAttrs: false。</p>
+    <custom-input
+            v-bind:value="customInputText"
+            v-on:input="customInputText = $event"
+            :a="a"
+            :b="a"
+    ></custom-input>
+    <custom-input v-model="customInputText"></custom-input>
+</div>
+
+</body>
+<script>
+    Vue.component("custom-input",{
+        inheritAttrs: true,
+        props:["value"],
+        template:`
+            <input
+                v-bind:value="value"
+                v-on:input="$emit('input',$event.target.value)"
+                >`,
+        mounted:function () {
+            console.log(this.$attrs)
+        }
+    })
+    const app = new Vue({
+        el:"#app",
+        data:{
+            customInputText:"Hello Vue!",
+            a:"1"
+        }
+    })
+</script>
+</html>

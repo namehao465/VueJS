@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>将原生事件绑定到组件</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <base-input1 v-on:focus.native="onFocus"></base-input1><br/>
+    <base-input2 v-on:focus.native="onFocus"></base-input2><br/>
+    <base-input3 label="Hello Vue!" test="test" value="value" v-on:focus="onFocus"></base-input3><br/>
+</div>
+<script>
+    Vue.component("base-input1",{
+        template:"<input>"
+    })
+    Vue.component("base-input2",{
+        template:"<label>{{label}}<input></label>",
+        data:function () {
+            return {label:"Hello Vue"}
+        }
+    })
+    Vue.component('base-input3', {
+        inheritAttrs: false,
+        props: ['label', 'value'],
+        computed: {
+            inputListeners: function () {
+                var vm = this
+                // `Object.assign` 将所有的对象合并为一个新对象
+                return Object.assign({},
+                    // 我们从父级添加所有的监听器
+                    this.$listeners,
+                    // 然后我们添加自定义监听器，
+                    // 或覆写一些监听器的行为
+                    {
+                        // 这里确保组件配合 `v-model` 的工作
+                        input: function (event) {
+                            vm.$emit('input', event.target.value)
+                        }
+                    }
+                )
+            }
+        },
+        template: `
+                    <label>
+                      {{ label }}
+                      <input
+                        v-bind="$attrs"
+                        v-bind:value="value"
+                        v-on="inputListeners"
+                      >
+                    </label>
+                  `,
+        mounted:function () {
+            console.log(this.$attrs)
+        }
+    })
+    new Vue({
+        el:"#app",
+        methods:{
+            onFocus:function () {
+                console.log("onFocus")
+            }
+        }
+    })
+</script>
+</body>
+</html>

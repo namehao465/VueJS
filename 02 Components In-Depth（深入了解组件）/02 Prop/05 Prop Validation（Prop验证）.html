@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>Prop验证</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<p>type 可以是下列原生构造函数中的一个：</p>
+    <ul>
+        <li>String</li>
+        <li>Number</li>
+        <li>Boolean</li>
+        <li>Array</li>
+        <li>Object</li>
+        <li>Date</li>
+        <li>Function</li>
+        <li>Symbol</li>
+    </ul>
+<p>额外的，type 还可以是一个自定义的构造函数，并且通过 instanceof 来进行检查确认。</p>
+<script>
+    Vue.component('my-component', {
+        props: {
+            // 基础的类型检查 (`null` 和 `undefined` 会通过任何类型验证)
+            propA: Number,
+            // 多个可能的类型
+            propB: [String, Number],
+            // 必填的字符串
+            propC: {
+                type: String,
+                required: true
+            },
+            // 带有默认值的数字
+            propD: {
+                type: Number,
+                default: 100
+            },
+            // 带有默认值的对象
+            propE: {
+                type: Object,
+                // 对象或数组默认值必须从一个工厂函数获取
+                default: function () {
+                    return { message: 'hello' }
+                }
+            },
+            // 自定义验证函数
+            propF: {
+                validator: function (value) {
+                    // 这个值必须匹配下列字符串中的一个
+                    return ['success', 'warning', 'danger'].indexOf(value) !== -1
+                }
+            }
+        }
+    })
+</script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>传递静态或动态 Prop</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <h1>传递静态或动态 Prop</h1>
+    <blog-post title="Hello!"></blog-post>
+    <blog-post :title="postTitle"></blog-post>
+
+    <h2>01 传入一个数字</h2>
+    <blog-post :title="likes"></blog-post>
+
+    <h2>02 传入一个布尔值</h2>
+    <blog-post :title="boolean"></blog-post>
+
+    <h2>03 传入一个数组</h2>
+    <blog-post :title="array"></blog-post>
+
+    <h2>04 传入一个对象</h2>
+    <blog-post :title="object"></blog-post>
+
+    <h2>05 传入一个对象的所有属性</h2>
+    <blog-post v-bind="post"></blog-post>
+</div>
+<script>
+    Vue.component("blog-post",{
+        props:["title"],
+        template:"<p>{{title}}</p>"
+    })
+    new Vue({
+        el:"#app",
+        data:{
+            postTitle:"new title",
+            likes:54,
+            boolean:true,
+            array:[123,456,789],
+            object:{
+                name:"chenhao",
+                company:"chrdi"
+            },
+            post:{
+                title:"Vue"
+            }
+        }
+
+    })
+</script>
+</body>
+</html>

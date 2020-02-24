@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width: device-width, init-scale=1.0'>
+    <title>.sync 修饰符</title>
+    <script src="../../vue.js"></script>
+</head>
+<body>
+<div id="app">
+    <base-input v-model="inputText"
+        v-bind:value.sync="inputText"></base-input>
+    <p>{{inputText}}</p>
+</div>
+<script>
+    Vue.component("base-input",{
+        props:["value"],
+        template:`<div>
+                    <input type="text" :value="value"
+                        @input="$emit('input',$event.target.value)">
+                        <button @click="$emit('update:value','Hello World!')">Hello World!</button>
+                    </div>`
+    })
+    new Vue({
+        el:"#app",
+        data:{
+            inputText:"test"
+        }
+    })
+</script>
+</body>
+</html>
